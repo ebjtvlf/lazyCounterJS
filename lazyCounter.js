@@ -3,7 +3,7 @@ lazyCounter.js
 Copyright (c) 2019 Yusaku Ichimura
 This is released under the MIT License.
 */
-(function(){  
+(function($){  
     $.fn.lazyCounter = function(countNow, countNew, dulation) {
         var counter = 0;
         var same    = 0;
