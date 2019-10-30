@@ -7,7 +7,7 @@ lazyCounterJS
 ## Description
 数値をゆっくりと変化させるjQueryプラグインです。
 ## Demo
-![無題](https://dayservice-navi.net/list_company.php?prefCode=13)
+https://dayservice-navi.net/list_company.php?prefCode=13
 ## Requirement
 jQuery
 ## Usage
