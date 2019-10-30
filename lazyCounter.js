@@ -27,7 +27,7 @@ This is released under the MIT License.
         countNow = counter;
         this.text(countNow);
         if(countNew === countNow) {
-            return;
+            return this;
         }
         dulation = dulation/(1 + len - same + abs);
         setTimeout($.lazyCounter(countNow, countNew, _dulation), _dulation);
