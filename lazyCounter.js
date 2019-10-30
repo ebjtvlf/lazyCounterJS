@@ -2,8 +2,8 @@
                     var counter = 0;
                     var same    = 0;
                     var abs     = 0;
-                    dulation = 1000;
-                    var len =  (countNew+"").length;
+                    dulation    = 1000;
+                    var len =  (countNew + "").length;
                     for(var i = 0; i < len; i++) {
 
                         var abc = (countNew % (10 ** (i + 1)))/(10 ** i);
@@ -28,8 +28,6 @@
                         return;
                     }
                     dulation = dulation/(1 + len - same + abs);
-                    console.log("abs:"+abs);
-                    console.log("dulation:"+dulation);
                     setTimeout(countUp, dulation);
                 };
                 countUp();
