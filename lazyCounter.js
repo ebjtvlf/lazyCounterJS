@@ -10,10 +10,8 @@ This is released under the MIT License.
         var abs     = 0;
         var _dulation= dulation || 1000;
         for(var i = 0, len = (countNew + "").length; i < len; i++) {
-            var abc  = (countNew % (10 ** (i + 1)))/(10 ** i);
-            var def  = Math.floor(abc);
-            var abc2 = (countNow % (10 ** (i + 1)))/(10 ** i);
-            var def2 = Math.floor(abc2);
+            var def  = Math.floor((countNew % (10 ** (i + 1)))/(10 ** i));
+            var def2 = Math.floor((countNow % (10 ** (i + 1)))/(10 ** i));
             var plusMinus = 1;
             abs += Math.abs(def - def2);
             if((def - def2) < 0) {
