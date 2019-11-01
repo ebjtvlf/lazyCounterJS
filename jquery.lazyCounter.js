@@ -1,5 +1,5 @@
 /*
-lazyCounter.js
+jquery.lazyCounter.js
 Copyright (c) 2019 Yusaku Ichimura
 This is released under the MIT License.
 */
