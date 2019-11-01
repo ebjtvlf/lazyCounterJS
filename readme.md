@@ -5,7 +5,7 @@ Name
 lazyCounterJS
 
 ## Description
-数値をゆっくりと変化させるjQueryプラグインです。
+既存の数値を目的の数値までゆっくりと変化させるjQueryプラグインです。
 ## Demo
 https://dayservice-navi.net/list_company.php?prefCode=13
 ## Requirement
@@ -22,9 +22,6 @@ $("#tag_name").lazyCounter({
 ## Contribution
 
 ## Licence
-
 MIT
-
 ## Author
-
 Yusaku Ichimura
