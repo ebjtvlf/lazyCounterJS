@@ -24,4 +24,4 @@ $("#tag_name").lazyCounter({
 ## Licence
 MIT
 ## Author
-Yusaku Ichimura
+Y.I
