@@ -1,6 +1,6 @@
 /*
 jquery.lazyCounter.js
-Copyright (c) 2019 Yusaku Ichimura
+Copyright (c) 2019 Y.I
 This is released under the MIT License.
 */
 (function($) {
